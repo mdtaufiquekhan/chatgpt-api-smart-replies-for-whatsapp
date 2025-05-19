@@ -1,0 +1,319 @@
+/* ========================
+   Base Reset & Global Font
+=========================== */
+html {
+  font-size: 14px; /* or 16px for default */
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter/Inter.woff2') format('woff2'),
+       url('../assets/fonts/Inter/Inter.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif !important;
+}
+
+/* ========================
+   Body & Typography
+=========================== */
+body {
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+p,
+li {
+  font-size: 1.5rem;
+}
+
+.tagline {
+  color: #444;
+  margin-bottom: 24px;
+}
+
+/* ========================
+   Container Layout
+=========================== */
+.container {
+  max-width: 90%;
+  margin: 32px auto;
+  padding: 32px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  line-height: 1.6;
+}
+
+/* ========================
+   Headings
+=========================== */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #1d1d1d;
+}
+
+h2 {
+  font-size: 1.7rem;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  color: #222;
+  scroll-margin-top: 80px; /* for smooth anchor scroll */
+}
+
+/* ========================
+   Text Elements
+=========================== */
+p {
+  margin: 8px 0;
+}
+
+ul {
+  padding-left: 18px;
+  margin-top: 6px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+ol {
+  padding-left: 18px;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+/* ========================
+   Links & Buttons
+=========================== */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.chrome-btn {
+  display: inline-block;
+  background-color: #4285f4;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.chrome-btn:hover {
+  background-color: #3367d6;
+}
+
+
+/* ========================
+   Language List
+=========================== */
+.language-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.language-list div {
+  background-color: #f1f1f1;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: 1px solid #000;
+}
+
+/* ========================
+   Images
+=========================== */
+img.qr {
+  width: 160px;
+  margin-top: 12px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.chrome-preview {
+  width: 100%;
+  margin-top: 16px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* ========================
+   Section Base Styling
+=========================== */
+.section-install,
+.section-how-to-use,
+.section-what-it-does,
+.section-features,
+.section-use-cases,
+.section-tech-stack,
+.section-author,
+.section-support,
+.section-repo,
+.section-todo,
+.section-language-support,
+.section-sponsorship {
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+
+/* ========================
+   Section Colors + Borders
+=========================== */
+.section-install {
+  background-color: #f4f9f4;
+  border: 1px solid #cfe9cf;
+}
+
+.section-how-to-use {
+  background-color: #fff9f2;
+  border: 1px solid #f2e0c9;
+}
+
+.section-what-it-does {
+  background-color: #f3f5ff;
+  border: 1px solid #c7d0f0;
+}
+
+.section-features {
+  background-color: #f2fcfb;
+  border: 1px solid #c5eae7;
+}
+
+.section-use-cases {
+  background-color: #faf6ff;
+  border: 1px solid #dccbf1;
+}
+
+.section-tech-stack {
+  background-color: #f6f8f9;
+  border: 1px solid #d5dee3;
+}
+
+.section-author {
+  background-color: #f0f7ff;
+  border: 1px solid #bcd9f2;
+}
+
+.section-support {
+  background-color: #fffef4;
+  border: 1px solid #ece8b9;
+}
+
+.section-repo {
+  background-color: #f7f9f9;
+  border: 1px solid #d4e0e0;
+}
+
+.section-todo {
+  background-color: #fef8f4;
+  border: 1px solid #f0d5c8;
+}
+
+.section-language-support {
+  background-color: #f3fdf7;
+  border: 1px solid #c4e8dd;
+}
+
+.section-sponsorship {
+  background-color: #f4f8ff;
+  border: 1px solid #c9dff5;
+}
+/* ========================
+   Section Hover Effect
+=========================== */
+.section-install:hover,
+.section-how-to-use:hover,
+.section-what-it-does:hover,
+.section-features:hover,
+.section-use-cases:hover,
+.section-tech-stack:hover,
+.section-author:hover,
+.section-support:hover,
+.section-repo:hover,
+.section-todo:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.205);
+  transition: box-shadow 0.2s ease;
+}
+
+
+/* Base font sizes (Mobile First) */
+p,
+li {
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  scroll-margin-top: 80px;
+}
+
+.chrome-btn {
+  font-size: 1.2rem;
+}
+
+/* Medium screens (Tablet ≥ 768px) */
+@media (min-width: 768px) {
+  p,
+  li {
+    font-size: 1.35rem;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .chrome-btn {
+    font-size: 1.35rem;
+  }
+}
+
+/* Large screens (Desktop ≥ 1024px) */
+@media (min-width: 1024px) {
+  p,
+  li {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  .chrome-btn {
+    font-size: 1.5rem;
+  }
+}

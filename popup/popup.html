@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+  <title>Set API Key</title>
+  <style>
+    body {
+      font-family: system-ui, "Segoe UI Emoji", "Noto Color Emoji", "Apple Color Emoji", sans-serif;
+      padding: 10px;
+      width: 300px;
+    }
+    input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h3>🔑 OpenAI API Key</h3>
+  <input type="password" id="apiKeyInput" placeholder="sk-..." />
+  <button id="saveKey">Save</button>
+  <p id="status" style="color: green;"></p>
+
+  <h3>🙋 Your Name (optional)</h3>
+  <p style="font-size: 13px; color: #555; margin-top: -8px;">
+    Your name can be used in replies if it fits the context (e.g., greetings).
+  </p>
+  <input type="text" id="userNameInput" placeholder="e.g., Alex" />
+  <button id="saveName">Save Name</button>
+  <p id="nameStatus" style="color: green;"></p>
+
+  <p style="text-align: center; font-size: 13px; margin-top: 15px;">
+    Made with ❤️ by 
+    <a href="https://about.me/mdtaufiquekhan" target="_blank" style="color: #007bff; text-decoration: none;">
+      @mdtaufiquekhan
+    </a>
+    • Check out the product: 
+    <a href="https://mdtaufiquekhan.github.io/chatgpt-api-smart-replies-for-whatsapp/" target="_blank" style="color: #007bff; text-decoration: none;">
+      Smart Replies for WhatsApp
+    </a>
+  </p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
