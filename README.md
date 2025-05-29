@@ -17,14 +17,14 @@ It suggests 3 smart, friendly replies instantly — in multiple Indian and inter
 > 🏢 Sponsored by: [Lookmyweb Consultancy Services](https://lookmyweb.com)  
 > 📧 Contact: [agreencoder@gmail.com](mailto:agreencoder@gmail.com)  
 > 🔗 [Project Web Page](https://mdtaufiquekhan.github.io/chatgpt-api-smart-replies-for-whatsapp/)  
-> 🧩 [Chrome Extension (coming soon)]([https://chrome.google.com/webstore/detail/your-extension-id](https://chromewebstore.google.com/detail/chatgpt-api-smart-replies/dhgmclmebidjbelkopknjlacdbhagang))
+> 🧩 [Chrome Extension (coming soon)](https://chromewebstore.google.com/detail/chatgpt-api-smart-replies/dhgmclmebidjbelkopknjlacdbhagang))
 ---
 
 <p align="">
   <a href="https://mdtaufiquekhan.github.io/chatgpt-api-smart-replies-for-whatsapp/" target="_blank">
     <img src="https://img.shields.io/badge/🔗%20Project%20Web%20Page-000000?style=for-the-badge" alt="Project Web Page" />
   </a>
-  <a href="https://chrome.google.com/webstore/detail/your-extension-id" target="_blank">
+  <a href="https://chromewebstore.google.com/detail/chatgpt-api-smart-replies/dhgmclmebidjbelkopknjlacdbhagang" target="_blank">
     <img src="https://img.shields.io/badge/🧩%20Chrome%20Extension%20(coming%20soon)-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome Extension" />
   </a>
 </p>
