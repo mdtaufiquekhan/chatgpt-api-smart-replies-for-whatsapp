@@ -17,7 +17,7 @@ It suggests 3 smart, friendly replies instantly — in multiple Indian and inter
 > 🏢 Sponsored by: [Lookmyweb Consultancy Services](https://lookmyweb.com)  
 > 📧 Contact: [agreencoder@gmail.com](mailto:agreencoder@gmail.com)  
 > 🔗 [Project Web Page](https://mdtaufiquekhan.github.io/chatgpt-api-smart-replies-for-whatsapp/)  
-> 🧩 [Chrome Extension (coming soon)](https://chrome.google.com/webstore/detail/your-extension-id)
+> 🧩 [Chrome Extension (coming soon)]([https://chrome.google.com/webstore/detail/your-extension-id](https://chromewebstore.google.com/detail/chatgpt-api-smart-replies/dhgmclmebidjbelkopknjlacdbhagang))
 ---
 
 <p align="">
